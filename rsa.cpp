@@ -66,9 +66,7 @@ private:
 
 public:
     void genKey() {
-        cout << "Enter two prime numbers (p and q): ";
-        cin >> p >> q;
-        cin.ignore(); // flush newline after int input
+    int p=11,q=13; 
 
         n = p * q;
         phi = (p - 1) * (q - 1);
